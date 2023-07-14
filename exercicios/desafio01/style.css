@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'iDroid';
+    src: url(./fontes/idroid.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(./fontes/BebasNeue-Regular.ttf) format('truetype');
+}
+
+* {
+    margin: 0px;
+}
+
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: 'Bebas Neue', cursive;
+    min-width: 160px;
+    background-image: linear-gradient(to bottom,#2fa866, #1A5c37, #063d1e);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+
+h1#T {
+    padding-top: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    color: #F1F6F3;
+}
+
+p#PT {
+    color: #84E1AD;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+}
+
+nav {
+    background-image: linear-gradient(to bottom,#063d1e,#042e16);
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+}
+
+nav > a:hover {
+    background-color: #84E1AD;
+    transition-duration: 0.5s;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 30px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+
+.t1 {
+    font-family: 'iDroid', sans-serif;
+    font-size: 30px;
+    color: #1A5c37;
+}
+
+.insidetitle {
+    font-family: 'iDroid', sans-serif;
+    color: #1A5c37;
+    padding-left: 10px;
+    background-image: linear-gradient(to right, #83E1AD, #ffffff);
+}
+
+.insidep {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+.glink {
+    color:#042e16;
+    text-decoration: none;
+}
+
+.glink:hover {
+    color: #2fa866;
+}
+
+div#droidimg {
+    text-align: center;
+}
+
+div#vid {
+    position: relative;
+    background-color: #1A5c37;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div#vid > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: #C5EBD6;
+    box-shadow: 1px 1px 5px#1c683e;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 5px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+h1#assh1 {
+    background-color: #2FA866;
+    color: white;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #1A5C38;
+    color: #84E1AD;
+    text-align: center;
+}
