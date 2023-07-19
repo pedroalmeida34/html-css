@@ -3,6 +3,12 @@ table {
     border-collapse: collapse;
 }
 
+caption {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bolder;
+}
+
 thead {
     width: 400px;
     height: 50px;
