@@ -1,0 +1,421 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo {
+    display: block;
+    float: left;
+    margin-top: 25px;
+}
+
+.menu {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 0px 50px 50px;
+    position: fixed;
+}
+
+.mnav a {
+    margin-left: 33px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 300;
+}
+
+
+.mnav {
+    max-width: 100%;
+    float: left;
+}
+
+.mnav li {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.login li {
+    display: inline-block;
+    margin-top: 25px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: violet;
+    padding-right: 110px;
+}
+
+.login {
+    float: right;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+
+            /*------secao1-----*/
+
+
+.foto1 {
+    background: url(../img/img1.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.foto1 h1 {
+    padding: 300px 0px 0px 0px;
+    margin-left: 100px;
+    margin-bottom: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color:white;
+}
+
+.foto1 h2 {
+    margin-left: 100px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+            /* FORMULARIO */
+
+.form {
+    box-sizing: border-box;
+    background-color: white;
+    max-width: 330px;
+    height: 305px;
+    border-radius: 10px;
+    float: right;
+    text-align: left;
+    padding: 20px;
+    margin-top: -280px;
+    margin-right: 48px;
+}
+
+.form h3 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.name {
+    color: #585858;
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.cpf {
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+.bto {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 0px;
+    align-items: center;
+    background-color: blueviolet;
+    color: rgba(255, 255, 255, 0.662);
+    font-family: 'Cabin', sans-serif;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 20px;
+    padding: 20px;
+}
+
+            /*Seção 2*/
+
+.secao2 {
+    height: 750px;
+    background-color: white;
+}
+
+
+.secao2 h2 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    margin-top: 150px;
+    margin-left: 200px;
+    max-width: 400px;
+    color: blueviolet;
+}
+
+.secao2 h3 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    color: black;
+}
+
+.secao2 a {
+    text-decoration: none;
+}
+
+.secao2 a:hover {
+    text-decoration: underline;
+}
+
+.tcartao {
+    float: left;
+    width: 55%;
+}
+
+.img2 {
+    float: left;
+    width: 45%;
+    max-height: 370px;
+    margin-top: 150px;
+}
+
+.saiba {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+            /*Seção 3*/
+
+.secao3 {
+    background-color: #f5f5f5;
+    height: 800px;
+}
+
+.tultra h2 {
+    color: blueviolet;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-left: 100px;
+    max-width: 600px;
+}
+
+
+.tultra h3 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    color: black;
+
+}
+
+.tultra a {
+    text-decoration: none;
+}
+
+.tultra a:hover {
+    text-decoration: underline;
+}
+
+.tultra {
+    float: left;
+    width: 55%;
+    margin-top: 350px;
+}
+
+.violeta {
+    float: left;
+    margin-top: 150px;
+}
+
+.saiba2 {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 100px;
+}
+
+            /*Seção 4*/
+
+.secao4 {
+    background-color: #f5f5f5;
+    height: 800px;
+}
+
+.tcontanubank h2 {
+    color: blueviolet;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-left: 200px;
+    max-width: 600px;
+}
+
+.tcontanubank h3 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    color: black;
+
+}
+
+.tcontanubank {
+    float: left;
+    margin-top: 350px;
+}
+
+.fotoconta {
+    float: left;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.tcontanubank a {
+    text-decoration: none;
+}
+
+.tcontanubank a:hover {
+    text-decoration: underline;
+}
+
+.contadesc {
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 200px;
+    text-decoration: none;
+}
+
+.contadesc:hover {
+    text-decoration: underline;
+}
+
+            /* Seção 5 */
+
+.secao5 {
+    background:url(../img/img5.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 850px;
+}
+
+.pilares {
+    float: left;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.pilares h2 {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.descfoto a{
+    text-align: left;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+}
+
+.descfoto a:hover {
+    text-decoration: underline;
+}
+
+            /* Seção 6 */
+
+.secao6 {
+    background: url(../img/img6.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 850px;
+}
+
+
+.community {
+    float: left;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.community h2, h3 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.faca a{
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+}
+
+.faca a:hover {
+    text-decoration: underline;
+}
+
+            /* Seção 7 */
+
+.secao7 {
+    background: url(../img/img7.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.news {
+    float: left;
+    margin-top: 280px;
+    margin-left: 150px;
+}
+
+.news h2 {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.descfoto2 a {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+}
+
+.descfoto2 a:hover {
+    text-decoration: underline;
+}
+
+            /* Seção 8 */
+
+.secao8 {
+    background-color: black;
+    height: 890px;
+}            
